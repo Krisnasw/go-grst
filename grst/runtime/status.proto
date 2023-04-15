@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+package runtime;
+option go_package = ".;runtime";
+
+message ResponseSuccess {
+    int32 HTTPStatus = 1 [json_name="http_status"];
+	string ProcessTime = 2 [json_name="process_time"];
+	google.protobuf.Any Data = 3 [json_name="data"];
+}
+
+//protobuf protoc-gen-go V1
+//protoc --proto_path=grst/runtime --go_out=plugins=grpc:./grst/runtime/ status.proto
+
+//protobuf protoc-gen-go V2
+//1. protoc --proto_path=grst/runtime --go_out ./grst/runtime/ --go-grpc_out ./grst/runtime/ status.proto
+//2. replace all *any.Any into interface{}
+//   sed -i "" 's/*any.Any/interface{}/g' grst/runtime/status.pb.go (in macbook)
+//   sed -i "" 's/any "github.com\/golang\/protobuf\/ptypes\/any"//g' grst/runtime/status.pb.go (in macbook)
+//   

@@ -1,0 +1,42 @@
+syntax = "proto3";
+package province;
+option go_package = ".;province";
+
+import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
+//import "google/protobuf/timestamp.proto";
+import "cdd/api/cddext.proto";
+
+service province {
+    rpc Get(GetReq) returns (Province) {
+        option (google.api.http) = {
+            get: "/province/{Id}"
+            additional_bindings: {
+                post: "/province/{Id}"
+            },
+        };
+        option (cdd.api.auth) = { 
+            needauth: true, 
+            roles: ["admin", "employee"],
+        }; 
+    }
+    rpc GetAll(google.protobuf.Empty) returns (Provinces) {
+        option (google.api.http) = {
+            get: "/province"
+        };
+    }
+}
+
+
+message GetReq {
+   int32 Id = 1 [json_name="id", (cdd.api.validate) = "required", (cdd.api.default) = "1"];
+}
+
+message Province {
+    int32 Id = 1 [json_name="id", (cdd.api.mysql_field).primary_key = true];
+	string Name = 2 [json_name="name"];
+}
+
+message Provinces {
+    repeated Province Provinces = 1 [json_name="provinces"];
+}

@@ -1,0 +1,28 @@
+version: 1
+lang: go
+name: location-api
+contract: 
+  output-grst: handler/grst/
+  proto-files:
+    - contract/province.proto
+    - contract/city.proto
+
+
+# default examples 
+# contract: 
+#   output-grst: handler/grst/
+#   proto-files:
+#     - contract/users.proto
+# dependencies:
+#   output-grst: clients/grst/
+#   services:
+#     - ../location-api/service.yaml
+
+
+# cdd gen go
+# cdd gen go-msq -f repository/city_mysql/model.go -n CityModel
+# cdd gen go-msq -f repository/province_mysql/model.go -n ProvinceModel
+# cdd gen go-entity -f city.proto -e "City|CityProfile"
+# cdd gen go-entity -f province.proto -e "Province"
+# all: cdd gen go && cdd gen go-msq -f repository/city_mysql/model.go -n CityModel && cdd gen go-msq -f repository/province_mysql/model.go -n ProvinceModel && cdd gen go-entity -f city.proto -e "City|CityProfile" && cdd gen go-entity -f province.proto -e "Province"
+ 

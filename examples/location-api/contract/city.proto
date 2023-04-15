@@ -1,0 +1,70 @@
+syntax = "proto3";
+package city;
+option go_package = ".;city";
+
+import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
+import "cdd/api/cddext.proto";
+
+service city {
+    rpc Get(GetReq) returns (City) {
+        option (google.api.http) = {
+            get: "/city/{Id}"
+        };
+    }
+    
+    rpc Search(SearchReq) returns (CityProfiles) {
+        option (google.api.http) = {
+            post: "/city",
+            body: "*"
+        };
+    }
+
+    rpc FileDownload(google.protobuf.Empty) returns (FileDownloadResp) {
+        option (google.api.http) = {
+            get: "/file/download"
+        };
+    }
+}
+
+message GetReq {
+   int32 Id = 1 [json_name="id", (cdd.api.validate) = "required", (cdd.api.default) = "1"];
+}
+
+message City {
+    int32 Id = 1 [json_name="id", (cdd.api.mysql_field).primary_key = true];
+    int32 ProvinceId = 2 [json_name="province_id"];
+    string Name = 3 [json_name="name"];
+}
+
+message FileDownloadResp {
+    string Filename = 1 [json_name="filename"];
+    string FileContent = 2 [json_name="filecontent"]; // need to be base64 encode
+}
+
+//message City {
+//    option (cdd.api.mysql) = {
+//        db_model: true,
+//        table_name: "tbl_city",
+//        disable_timestamp_tracking: false,
+//        enable_soft_delete: false
+//    };
+
+//    int32 Id = 1 [json_name="id", (cdd.api.mysql_field).primary_key = true];
+//    int32 ProvinceId = 2 [json_name="province_id"];
+//	string Name = 3 [json_name="name"];
+//}
+
+message SearchReq {
+   string Keyword = 1 [json_name="keyword", (cdd.api.validate) = "required"];
+}
+
+message CityProfiles {
+    repeated CityProfile Cities = 1 [json_name="cities"];
+}
+message CityProfile {
+    int32 Id = 1 [json_name="id"];
+    string Name = 2 [json_name="name"];
+    string ProvinceName = 3 [json_name="province_name"];
+    int32 ProvinceId = 4 [json_name="province_id"];
+}

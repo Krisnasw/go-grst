@@ -1,0 +1,26 @@
+version: 1
+lang: go
+name: users-api
+contract: 
+  proto-files:
+    - contract/users.proto
+dependencies:
+  services:
+    - ../location-api/service.yaml
+
+# default examples 
+# contract: 
+#   output-grst: handler/grst/
+#   proto-files:
+#     - contract/users.proto
+# dependencies:
+#   output-grst: clients/grst/
+#   services:
+#     - ../location-api/service.yaml
+
+# cdd gen go
+# cdd gen go-entity -f users.proto -e "UserProfile|User"
+# combine: cdd gen go && cdd gen go-entity -f users.proto -e "UserProfile|User"
+
+# one time call
+# cdd gen go-uc -n profile -o app/usecase
