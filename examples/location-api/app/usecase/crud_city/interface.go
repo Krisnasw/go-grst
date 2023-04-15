@@ -1,7 +1,7 @@
 package crud_city_usecase
 
 import (
-	"github.com/krisnasw/cdd/examples/location-api/entity"
+	"github.com/krisnasw/go-grst/examples/location-api/entity"
 )
 
 type Repository interface {

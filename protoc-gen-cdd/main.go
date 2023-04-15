@@ -6,12 +6,12 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	descriptor "github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
-	"github.com/krisnasw/cdd/protoc-gen-cdd/generator"
-	entity "github.com/krisnasw/cdd/protoc-gen-cdd/generator/entity"
-	grstframework "github.com/krisnasw/cdd/protoc-gen-cdd/generator/grst-framework"
-	mysql_model "github.com/krisnasw/cdd/protoc-gen-cdd/generator/mysql-model"
-	usecase_mysql "github.com/krisnasw/cdd/protoc-gen-cdd/generator/usecase-mysql"
+	descriptor "github.com/krisnasw/go-grst/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/go-grst/protoc-gen-cdd/generator"
+	entity "github.com/krisnasw/go-grst/protoc-gen-cdd/generator/entity"
+	grstframework "github.com/krisnasw/go-grst/protoc-gen-cdd/generator/grst-framework"
+	mysql_model "github.com/krisnasw/go-grst/protoc-gen-cdd/generator/mysql-model"
+	usecase_mysql "github.com/krisnasw/go-grst/protoc-gen-cdd/generator/usecase-mysql"
 
 	"google.golang.org/protobuf/compiler/protogen"
 )
@@ -22,7 +22,7 @@ var (
 	/*grst specific options*/
 	fProtocGoOut = flag.Bool("protoc-gen-go", true, "generate *.pb.go (calling `protoc-gen-go`) with additional features, such as request validation & default value. protoc-gen-go version: v1.25.0. default: true")
 	/*scaffold-mysql specific options*/
-	fGoModuleName = flag.String("go-module-name", "", "Go module name, check in go.mod file. This needed for local import prefix. example: github.com/krisnasw/cdd/examples/province-api")
+	fGoModuleName = flag.String("go-module-name", "", "Go module name, check in go.mod file. This needed for local import prefix. example: github.com/krisnasw/go-grst/examples/province-api")
 
 	fName = flag.String("name", "", "name of entity or usecase or model")
 

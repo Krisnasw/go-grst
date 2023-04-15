@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	repository_intf "github.com/krisnasw/cdd/examples/users-api/app/repository"
-	pbProvince "github.com/krisnasw/cdd/examples/users-api/clients/grst/province"
-	"github.com/krisnasw/cdd/examples/users-api/entity"
+	repository_intf "github.com/krisnasw/go-grst/examples/users-api/app/repository"
+	pbProvince "github.com/krisnasw/go-grst/examples/users-api/clients/grst/province"
+	"github.com/krisnasw/go-grst/examples/users-api/entity"
 	"gorm.io/gorm"
 )
 

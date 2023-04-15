@@ -1,4 +1,4 @@
-module github.com/krisnasw/cdd/cdd
+module github.com/krisnasw/go-grst/cdd
 
 go 1.15
 

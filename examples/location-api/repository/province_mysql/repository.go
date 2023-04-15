@@ -3,8 +3,8 @@ package province_mysql
 import (
 	"errors"
 
-	repository_intf "github.com/krisnasw/cdd/examples/location-api/app/repository"
-	"github.com/krisnasw/cdd/examples/location-api/entity"
+	repository_intf "github.com/krisnasw/go-grst/examples/location-api/app/repository"
+	"github.com/krisnasw/go-grst/examples/location-api/entity"
 	"gorm.io/gorm"
 )
 

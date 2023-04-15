@@ -3,7 +3,7 @@ package usecase_mysql
 import (
 	"strings"
 
-	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/go-grst/protoc-gen-cdd/descriptor"
 )
 
 func getGormTagAttribute(fieldext *descriptor.FieldDescriptorExt) string {

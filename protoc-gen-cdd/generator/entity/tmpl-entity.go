@@ -6,8 +6,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
-	"github.com/krisnasw/cdd/protoc-gen-cdd/generator"
+	"github.com/krisnasw/go-grst/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/go-grst/protoc-gen-cdd/generator"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

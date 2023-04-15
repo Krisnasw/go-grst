@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 
-	"github.com/krisnasw/cdd/examples/users-api/entity"
+	"github.com/krisnasw/go-grst/examples/users-api/entity"
 )
 
 var ErrUserNotFound = errors.New("User not found")

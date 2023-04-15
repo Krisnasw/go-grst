@@ -3,7 +3,7 @@ package user_repository_impl
 import (
 	"time"
 
-	"github.com/krisnasw/cdd/examples/users-api/entity"
+	"github.com/krisnasw/go-grst/examples/users-api/entity"
 )
 
 type UserModel struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	mysql_query_gen "github.com/krisnasw/cdd/cdd/pkg/gen-go-mysql-query"
+	mysql_query_gen "github.com/krisnasw/go-grst/cdd/pkg/gen-go-mysql-query"
 	"github.com/spf13/cobra"
 )
 

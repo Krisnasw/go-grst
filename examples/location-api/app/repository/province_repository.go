@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 
-	"github.com/krisnasw/cdd/examples/location-api/entity"
+	"github.com/krisnasw/go-grst/examples/location-api/entity"
 )
 
 var ErrProvinceNotFound = errors.New("Province not found")

@@ -3,7 +3,7 @@ syntax = "proto3";
 package cdd.api;
 
 import "google/protobuf/descriptor.proto";
-option go_package = "github.com/krisnasw/cdd/protoc-gen-cdd/ext/cddapis/cdd/api;cddext";
+option go_package = "github.com/krisnasw/go-grst/protoc-gen-cdd/ext/cddapis/cdd/api;cddext";
 
 
 extend google.protobuf.MessageOptions {

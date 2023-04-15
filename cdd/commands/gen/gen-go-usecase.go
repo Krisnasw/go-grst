@@ -3,8 +3,8 @@ package gen
 import (
 	"fmt"
 
-	protocgencdd "github.com/krisnasw/cdd/cdd/cli/protoc-gen-cdd"
-	usecase "github.com/krisnasw/cdd/cdd/pkg/gen-go-usecase"
+	protocgencdd "github.com/krisnasw/go-grst/cdd/cli/protoc-gen-cdd"
+	usecase "github.com/krisnasw/go-grst/cdd/pkg/gen-go-usecase"
 	"github.com/spf13/cobra"
 )
 

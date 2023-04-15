@@ -6,8 +6,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
-	"github.com/krisnasw/cdd/protoc-gen-cdd/generator"
+	"github.com/krisnasw/go-grst/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/go-grst/protoc-gen-cdd/generator"
 	"github.com/iancoleman/strcase"
 	"google.golang.org/protobuf/compiler/protogen"
 )
@@ -32,9 +32,9 @@ var (
 		"net/http"
 		"strings"
 
-		"github.com/krisnasw/cdd/grst"
+		"github.com/krisnasw/go-grst/grst"
 		"google.golang.org/grpc"
-		grst_errors "github.com/krisnasw/cdd/grst/errors"
+		grst_errors "github.com/krisnasw/go-grst/grst/errors"
 				
 		"github.com/mcuadros/go-defaults"
 		"google.golang.org/grpc/codes"

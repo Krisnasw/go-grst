@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	grst_errors "github.com/krisnasw/cdd/grst/errors"
-	authtokenapi "github.com/krisnasw/cdd/grst/interceptor/authtoken/clients/authtokenapi"
+	grst_errors "github.com/krisnasw/go-grst/grst/errors"
+	authtokenapi "github.com/krisnasw/go-grst/grst/interceptor/authtoken/clients/authtokenapi"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

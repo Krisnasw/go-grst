@@ -2,7 +2,7 @@
 This is still in Alpha Version.
 
 ### What is protoc-gen-cdd
-This is implementation of contract driven development. protoc-gen-cdd act as generator of the contracts. Right now it can generate cdd-grst frameworks. https://github.com/krisnasw/cdd/tree/main/grst
+This is implementation of contract driven development. protoc-gen-cdd act as generator of the contracts. Right now it can generate cdd-grst frameworks. https://github.com/krisnasw/go-grst/tree/main/grst
 
 ### Requirement
 ```

@@ -3,7 +3,7 @@ package province_mysql
 import (
 	"time"
 
-	"github.com/krisnasw/cdd/examples/location-api/entity"
+	"github.com/krisnasw/go-grst/examples/location-api/entity"
 )
 
 type ProvinceModel struct {

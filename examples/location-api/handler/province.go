@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	crud_province_usecase "github.com/krisnasw/cdd/examples/location-api/app/usecase/crud_province"
-	pbProvince "github.com/krisnasw/cdd/examples/location-api/handler/grst/province"
-	grst_errors "github.com/krisnasw/cdd/grst/errors"
+	crud_province_usecase "github.com/krisnasw/go-grst/examples/location-api/app/usecase/crud_province"
+	pbProvince "github.com/krisnasw/go-grst/examples/location-api/handler/grst/province"
+	grst_errors "github.com/krisnasw/go-grst/grst/errors"
 	"google.golang.org/grpc/codes"
 )
 

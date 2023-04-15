@@ -1,18 +1,18 @@
-module github.com/krisnasw/cdd/examples/users-api
+module github.com/krisnasw/go-grst/examples/users-api
 
 go 1.15
 
-replace github.com/krisnasw/cdd/grst => ../../grst
+replace github.com/krisnasw/go-grst/grst => ../../grst
 
-replace github.com/krisnasw/cdd => ../../
+replace github.com/krisnasw/go-grst => ../../
 
-replace github.com/krisnasw/cdd/protoc-gen-cdd => ../../protoc-gen-cdd
+replace github.com/krisnasw/go-grst/protoc-gen-cdd => ../../protoc-gen-cdd
 
 require (
 	github.com/golang/protobuf v1.4.3
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.2.0
-	github.com/krisnasw/cdd/grst v0.0.0-00010101000000-000000000000
-	github.com/krisnasw/cdd/protoc-gen-cdd v0.0.0-00010101000000-000000000000
+	github.com/krisnasw/go-grst/grst v0.0.0-00010101000000-000000000000
+	github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-00010101000000-000000000000
 	github.com/jinzhu/gorm v1.9.16
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mcuadros/go-defaults v1.2.0

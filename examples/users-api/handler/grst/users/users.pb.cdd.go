@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/krisnasw/cdd/grst"
-	grst_errors "github.com/krisnasw/cdd/grst/errors"
+	"github.com/krisnasw/go-grst/grst"
+	grst_errors "github.com/krisnasw/go-grst/grst/errors"
 	"google.golang.org/grpc"
 
 	"github.com/mcuadros/go-defaults"

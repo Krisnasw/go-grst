@@ -81,7 +81,7 @@ func (c *DoctorCmd) runCommand(cmd *cobra.Command, args []string) error {
 	} else {
 		fmt.Printf(ErrorColor, "[x] ")
 		fmt.Println("protoc-gen-cdd")
-		fmt.Printf(ErrorColor+"\n", fmt.Sprint(strutil.Resize("", 4), "protoc-gen-cdd hasn't installed yet: https://github.com/krisnasw/cdd/tree/main/protoc-gen-cdd"))
+		fmt.Printf(ErrorColor+"\n", fmt.Sprint(strutil.Resize("", 4), "protoc-gen-cdd hasn't installed yet: https://github.com/krisnasw/go-grst/tree/main/protoc-gen-cdd"))
 	}
 
 	return nil

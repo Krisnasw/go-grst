@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	grst_context "github.com/krisnasw/cdd/grst/context"
+	grst_context "github.com/krisnasw/go-grst/grst/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

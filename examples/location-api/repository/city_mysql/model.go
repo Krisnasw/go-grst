@@ -3,7 +3,7 @@ package city_mysql
 import (
 	"time"
 
-	"github.com/krisnasw/cdd/examples/location-api/entity"
+	"github.com/krisnasw/go-grst/examples/location-api/entity"
 )
 
 type CityModel struct {
