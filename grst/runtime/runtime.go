@@ -11,7 +11,7 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/herryg91/cdd/grst/errors"
+	"github.com/krisnasw/cdd/grst/errors"
 	"google.golang.org/protobuf/proto"
 )
 

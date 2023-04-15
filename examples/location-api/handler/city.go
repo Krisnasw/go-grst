@@ -9,10 +9,10 @@ import (
 	"net/http"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	crud_city_usecase "github.com/herryg91/cdd/examples/location-api/app/usecase/crud_city"
-	search_usecase "github.com/herryg91/cdd/examples/location-api/app/usecase/search"
-	pbCity "github.com/herryg91/cdd/examples/location-api/handler/grst/city"
-	grst_errors "github.com/herryg91/cdd/grst/errors"
+	crud_city_usecase "github.com/krisnasw/cdd/examples/location-api/app/usecase/crud_city"
+	search_usecase "github.com/krisnasw/cdd/examples/location-api/app/usecase/search"
+	pbCity "github.com/krisnasw/cdd/examples/location-api/handler/grst/city"
+	grst_errors "github.com/krisnasw/cdd/grst/errors"
 	"google.golang.org/grpc/codes"
 )
 

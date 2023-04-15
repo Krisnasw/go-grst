@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/herryg91/cdd/grst/errors"
+	"github.com/krisnasw/cdd/grst/errors"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

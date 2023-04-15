@@ -1,7 +1,7 @@
 package crud_city_usecase
 
 import (
-	"github.com/herryg91/cdd/examples/location-api/entity"
+	"github.com/krisnasw/cdd/examples/location-api/entity"
 )
 
 type Repository interface {

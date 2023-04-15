@@ -3,8 +3,8 @@ package city_mysql
 import (
 	"errors"
 
-	repository_intf "github.com/herryg91/cdd/examples/location-api/app/repository"
-	"github.com/herryg91/cdd/examples/location-api/entity"
+	repository_intf "github.com/krisnasw/cdd/examples/location-api/app/repository"
+	"github.com/krisnasw/cdd/examples/location-api/entity"
 	"gorm.io/gorm"
 )
 

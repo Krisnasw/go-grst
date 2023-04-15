@@ -3,7 +3,7 @@ package mysql_model
 import (
 	"strings"
 
-	"github.com/herryg91/cdd/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
 	"github.com/iancoleman/strcase"
 )
 

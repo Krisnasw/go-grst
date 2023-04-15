@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/herryg91/cdd/examples/users-api/app/repository"
-	"github.com/herryg91/cdd/examples/users-api/entity"
+	"github.com/krisnasw/cdd/examples/users-api/app/repository"
+	"github.com/krisnasw/cdd/examples/users-api/entity"
 )
 
 type usecase struct {

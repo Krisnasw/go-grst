@@ -3,8 +3,8 @@ package gen
 import (
 	"fmt"
 
-	gocli "github.com/herryg91/cdd/cdd/cli/go"
-	protocgencdd "github.com/herryg91/cdd/cdd/cli/protoc-gen-cdd"
+	gocli "github.com/krisnasw/cdd/cdd/cli/go"
+	protocgencdd "github.com/krisnasw/cdd/cdd/cli/protoc-gen-cdd"
 	"github.com/spf13/cobra"
 )
 

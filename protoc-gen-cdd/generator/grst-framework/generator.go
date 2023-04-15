@@ -3,8 +3,8 @@ package grstframework
 import (
 	"fmt"
 
-	"github.com/herryg91/cdd/protoc-gen-cdd/descriptor"
-	"github.com/herryg91/cdd/protoc-gen-cdd/generator"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/generator"
 	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
 	"google.golang.org/protobuf/compiler/protogen"
 )

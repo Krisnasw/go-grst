@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/herryg91/cdd/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
 )
 
 func needImportTime(mext *descriptor.MessageDescriptorExt) bool {

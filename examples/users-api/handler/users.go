@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 
-	profile_usecase "github.com/herryg91/cdd/examples/users-api/app/usecase/profile"
-	pbUsers "github.com/herryg91/cdd/examples/users-api/handler/grst/users"
-	grst_errors "github.com/herryg91/cdd/grst/errors"
+	profile_usecase "github.com/krisnasw/cdd/examples/users-api/app/usecase/profile"
+	pbUsers "github.com/krisnasw/cdd/examples/users-api/handler/grst/users"
+	grst_errors "github.com/krisnasw/cdd/grst/errors"
 	"google.golang.org/grpc/codes"
 )
 

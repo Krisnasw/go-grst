@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/herryg91/cdd/cdd/commands/doctor"
-	"github.com/herryg91/cdd/cdd/commands/gen"
+	"github.com/krisnasw/cdd/cdd/commands/doctor"
+	"github.com/krisnasw/cdd/cdd/commands/gen"
 	"github.com/spf13/cobra"
 )
 

@@ -8,7 +8,7 @@ package users
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	_ "github.com/herryg91/cdd/protoc-gen-cdd/ext/cddapis/cdd/api"
+	_ "github.com/krisnasw/cdd/protoc-gen-cdd/ext/cddapis/cdd/api"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

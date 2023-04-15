@@ -1,4 +1,4 @@
-module github.com/herryg91/cdd/protoc-gen-cdd
+module github.com/krisnasw/cdd/protoc-gen-cdd
 
 go 1.15
 

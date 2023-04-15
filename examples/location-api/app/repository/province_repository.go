@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 
-	"github.com/herryg91/cdd/examples/location-api/entity"
+	"github.com/krisnasw/cdd/examples/location-api/entity"
 )
 
 var ErrProvinceNotFound = errors.New("Province not found")

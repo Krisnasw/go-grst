@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 
-	"github.com/herryg91/cdd/examples/users-api/entity"
+	"github.com/krisnasw/cdd/examples/users-api/entity"
 )
 
 var ErrUserNotFound = errors.New("User not found")

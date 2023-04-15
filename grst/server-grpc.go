@@ -6,7 +6,7 @@ import (
 	"net"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	outgoingInterceptor "github.com/herryg91/cdd/grst/interceptor/outgoing"
+	outgoingInterceptor "github.com/krisnasw/cdd/grst/interceptor/outgoing"
 	"google.golang.org/grpc"
 )
 

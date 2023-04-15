@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	cddext "github.com/herryg91/cdd/protoc-gen-cdd/ext/cddapis/cdd/api"
+	cddext "github.com/krisnasw/cdd/protoc-gen-cdd/ext/cddapis/cdd/api"
 	"github.com/iancoleman/strcase"
 	"google.golang.org/protobuf/proto"
 	descriptorpb "google.golang.org/protobuf/types/descriptorpb"

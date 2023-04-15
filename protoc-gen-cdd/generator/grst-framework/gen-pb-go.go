@@ -3,9 +3,9 @@ package grstframework
 import (
 	"fmt"
 
-	"github.com/herryg91/cdd/protoc-gen-cdd/descriptor"
-	"github.com/herryg91/cdd/protoc-gen-cdd/generator"
-	"github.com/herryg91/cdd/protoc-gen-cdd/gomodifytags"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/generator"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/gomodifytags"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

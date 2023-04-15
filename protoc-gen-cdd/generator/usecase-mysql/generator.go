@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/herryg91/cdd/protoc-gen-cdd/descriptor"
-	"github.com/herryg91/cdd/protoc-gen-cdd/generator"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/descriptor"
+	"github.com/krisnasw/cdd/protoc-gen-cdd/generator"
 )
 
 type ScaffoldMysqlGeneratorTemplate struct {

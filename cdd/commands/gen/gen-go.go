@@ -3,8 +3,8 @@ package gen
 import (
 	"path/filepath"
 
-	protocgencdd "github.com/herryg91/cdd/cdd/cli/protoc-gen-cdd"
-	"github.com/herryg91/cdd/cdd/pkg/serviceYaml"
+	protocgencdd "github.com/krisnasw/cdd/cdd/cli/protoc-gen-cdd"
+	"github.com/krisnasw/cdd/cdd/pkg/serviceYaml"
 	"github.com/spf13/cobra"
 )
 

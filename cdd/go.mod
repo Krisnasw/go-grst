@@ -1,4 +1,4 @@
-module github.com/herryg91/cdd/cdd
+module github.com/krisnasw/cdd/cdd
 
 go 1.15
 

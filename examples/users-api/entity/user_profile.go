@@ -1,7 +1,7 @@
 package entity
 
 import (
-	pbUsers "github.com/herryg91/cdd/examples/users-api/handler/grst/users"
+	pbUsers "github.com/krisnasw/cdd/examples/users-api/handler/grst/users"
 )
 
 func (UserProfile) FromUser(u User, provinceName string) UserProfile {

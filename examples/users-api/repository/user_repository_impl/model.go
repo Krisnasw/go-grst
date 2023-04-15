@@ -3,7 +3,7 @@ package user_repository_impl
 import (
 	"time"
 
-	"github.com/herryg91/cdd/examples/users-api/entity"
+	"github.com/krisnasw/cdd/examples/users-api/entity"
 )
 
 type UserModel struct {

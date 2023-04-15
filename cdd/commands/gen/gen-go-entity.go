@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	protocgencdd "github.com/herryg91/cdd/cdd/cli/protoc-gen-cdd"
+	protocgencdd "github.com/krisnasw/cdd/cdd/cli/protoc-gen-cdd"
 	"github.com/spf13/cobra"
 )
 
