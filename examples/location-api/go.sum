@@ -184,12 +184,6 @@ github.com/hashicorp/logutils v1.0.0/go.mod h1:QIAnNjmIWmVIIkWDTG1z5v++HQmx9WQRO
 github.com/hashicorp/mdns v1.0.0/go.mod h1:tL+uN++7HEJ6SQLQ2/p+z2pH24WQKWjBPkE0mNTz8vQ=
 github.com/hashicorp/memberlist v0.1.3/go.mod h1:ajVTdAv/9Im8oMAAj5G31PhhMCZJV2pPBoIllUwCN7I=
 github.com/hashicorp/serf v0.8.2/go.mod h1:6hOLApaqBFA1NXqRQAsxw9QxuDEvNxSQRwA/JwenrHc=
-github.com/krisnasw/go-grst/grst v0.0.0-20210408152651-36b8866347e0 h1:XkNt5uYdUct8/SZsAnr7wuGpjO+uRfAVpe/cyfFt2kw=
-github.com/krisnasw/go-grst/grst v0.0.0-20210408152651-36b8866347e0/go.mod h1:bSf/TL0dqUnnDOq2BVnd0N6K8n1zH4s4zcn/x4iRHAo=
-github.com/krisnasw/go-grst/grst v0.0.0-20220718030212-ad0114401090 h1:M2MuM0DcuboRWhv3clmILROOZBo0EdHRyIZJQmixrO0=
-github.com/krisnasw/go-grst/grst v0.0.0-20220718030212-ad0114401090/go.mod h1:bSf/TL0dqUnnDOq2BVnd0N6K8n1zH4s4zcn/x4iRHAo=
-github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-20210408152651-36b8866347e0 h1:Ee+IcVLMKaeBQ4WONDOiJZuHOIeU+DesMzV/9Xd5lnM=
-github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-20210408152651-36b8866347e0/go.mod h1:pcCqRQ8mOJTYkgLUGbTDZw/2fDltG8n/r2l5m31coFo=
 github.com/iancoleman/strcase v0.1.3/go.mod h1:SK73tn/9oHe+/Y0h39VT4UCxmurVJkR5NA7kMEAOgSE=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
@@ -220,6 +214,10 @@ github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORN
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
+github.com/krisnasw/go-grst/grst v0.0.0-20230416062753-8ba2ab080f14 h1:cOb0vP/Xul+jl54ikGoQY7RZaYMz4Ryj5ROGs8x/NpU=
+github.com/krisnasw/go-grst/grst v0.0.0-20230416062753-8ba2ab080f14/go.mod h1:2Cca4jNGC2Kh0Y1TmjxDSLd9tqmArzQRuO2V8QqydO0=
+github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-20230416062753-8ba2ab080f14 h1:6lG7lfooo6Fbc00nIXpH9A+jxmMLFL916v7wKd33Sv8=
+github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-20230416062753-8ba2ab080f14/go.mod h1:nvOv34nbSmFtUsvjvnBzWQGgpd9vCDJ7N+qinGukWh0=
 github.com/lib/pq v1.1.1/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=
 github.com/magefile/mage v1.10.0 h1:3HiXzCUY12kh9bIuyXShaVe529fJfyqoVM42o/uom2g=
 github.com/magefile/mage v1.10.0/go.mod h1:z5UZb/iS3GoOSn0JgWuiw7dxlurVYTu+/jHXqQg881A=

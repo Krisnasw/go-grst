@@ -11,10 +11,9 @@ replace github.com/krisnasw/go-grst/protoc-gen-cdd => ../../protoc-gen-cdd
 require (
 	github.com/golang/protobuf v1.4.3
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.2.0
+	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/krisnasw/go-grst/grst v0.0.0-00010101000000-000000000000
 	github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-00010101000000-000000000000
-	github.com/jinzhu/gorm v1.9.16
-	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mcuadros/go-defaults v1.2.0
 	github.com/sirupsen/logrus v1.8.0
 	google.golang.org/genproto v0.0.0-20210207032614-bba0dbe2a9ea

@@ -11,10 +11,10 @@ go 1.15
 require (
 	github.com/golang/protobuf v1.4.3
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.3.0
-	github.com/krisnasw/go-grst/grst v0.0.0-20220718030212-ad0114401090
-	github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-20210408152651-36b8866347e0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/kelseyhightower/envconfig v1.4.0
+	github.com/krisnasw/go-grst/grst v0.0.0-20230416062753-8ba2ab080f14
+	github.com/krisnasw/go-grst/protoc-gen-cdd v0.0.0-20230416062753-8ba2ab080f14
 	github.com/mcuadros/go-defaults v1.2.0
 	github.com/sirupsen/logrus v1.8.0
 	google.golang.org/genproto v0.0.0-20210310155132-4ce2db91004e
