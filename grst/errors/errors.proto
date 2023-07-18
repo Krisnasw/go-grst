@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package errors;
+option go_package = ".;errors";
+message Error {
+    int32 HTTPStatus = 1 [json_name="http_status"];
+    int32 GRPCStatus = 2 [json_name="grpc_status"];
+    int32 Code = 3 [json_name="code"];
+    string Message = 4 [json_name="message"];
+    repeated ErrorDetail OtherErrors = 5 [json_name="other_errors"];
+}
+
+message ErrorDetail {
+    int32 Code = 1 [json_name="code"];
+    string Field = 2 [json_name="field"];
+    string Message = 3 [json_name="message"];
+}
+
+//protobuf protoc-gen-go V1
+//protoc --proto_path=grst/errors --go_out=plugins=grpc:./grst/errors/ errors.proto
+
+//protobuf protoc-gen-go V2
+//protoc --proto_path=grst/errors --go_out ./grst/errors/ --go-grpc_out ./grst/errors/ errors.proto

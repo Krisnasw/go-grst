@@ -1,0 +1,31 @@
+syntax = "proto3";
+package users;
+option go_package = ".;users";
+
+import "google/api/annotations.proto";
+import "cdd/api/cddext.proto";
+
+service users {
+    rpc GetProfile(GetProfileReq) returns (UserProfile) {
+        option (google.api.http) = {
+            get: "/user/{Id}"
+        };
+    }
+}
+
+message User {
+    int32 Id = 1 [json_name="id", (cdd.api.mysql_field).primary_key = true];
+	string Name = 2 [json_name="name"];
+    int32 ProvinceId = 3 [json_name="province_id"];
+}
+
+message GetProfileReq {
+   int32 Id = 1 [json_name="id", (cdd.api.validate) = "required", (cdd.api.default) = "1"];
+}
+
+message UserProfile {
+    int32 Id = 1;
+	string Name = 2 [json_name="name"];
+    int32 ProvinceId = 3 [json_name="province_id"];
+    string ProvinceName = 4 [json_name="province_name"];
+}

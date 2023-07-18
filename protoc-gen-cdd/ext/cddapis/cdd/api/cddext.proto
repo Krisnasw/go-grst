@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package cdd.api;
+
+import "google/protobuf/descriptor.proto";
+option go_package = "github.com/krisnasw/go-grst/protoc-gen-cdd/ext/cddapis/cdd/api;cddext";
+
+
+extend google.protobuf.MessageOptions {
+  Mysql mysql = 110000;
+}
+
+extend google.protobuf.FieldOptions {
+    MysqlField mysql_field = 120000;
+    string validate = 121000;
+    string default = 122000;
+}
+
+extend google.protobuf.MethodOptions {
+    Auth auth = 130000;
+}
+
+// Authentication
+message Auth {
+   bool needauth = 130001;
+   bool needapikey = 130002;
+   repeated string roles = 130003;
+}
+
+// DB: Mysql
+message Mysql {
+  bool db_model = 110001;
+  string table_name = 110002;
+  bool disable_timestamp_tracking = 110003;
+  bool enable_soft_delete = 110004;
+}
+
+message MysqlField {
+  string column_name = 120001;
+  bool primary_key = 120002;
+  string column_type  = 120003;
+  bool nullable = 120004;
+}
